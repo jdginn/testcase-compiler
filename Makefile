@@ -1,5 +1,5 @@
 main.out:
-	/usr/local/opt/llvm/bin/clang++ main.cpp -gdwarf-4 -o main.out
+	clang main.cpp -gdwarf-4 -o testcase.out
 
 clean:
-	rm main.out
+	rm testcase.out
